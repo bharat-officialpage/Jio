@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>jio prepaid</title>
+
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="/Jio/login/login.css">
+    <!-- custom css link  -->
+
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="/Jio/images/smallimg/jio-logo.png" type="image/x-icon">
+    <!-- favicon  -->
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- font awesome cdn link  -->
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- swiper link  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="header d-flex justify-content-around">
+        <div class="ham">
+            <i class="fa-solid fa-bars text-white" id="bar"></i>
+        </div>
+        <a href="/Jio/index.html">
+            <div class="image d-flex">
+                <img src="/Jio/images/smallimg/jio-logo.png" alt="image" class="img-fluid">
+            </div>
+        </a>
+        <div class="navbar">
+            <a href="/Jio/mobile/mobile.html">Mobile</a>
+            <a href="/Jio/true/true.html" id="elm">True <br> 5G</a>
+            <a href="/Jio/jiofiber/fiber.html">JioFiber</a>
+            <a href="/Jio/bussines/business.html">Business</a>
+            <a href="/Jio/shop/shop.html">Shop</a>
+            <a href="/Jio/apps/app.html">Apps</a>
+            <a href="/Jio/support/support.html">Support</a>
+        </div>
+
+        <div class="inputuser d-flex justify-content-between">
+            <div class="input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="email" data-bs-toggle="modal" data-bs-target="#exampleModal-1"
+                    class="form-control text-white" id="Input1" placeholder="Search">
+            </div>
+            <div class="maglass">
+                <i class="fa-solid fa-magnifying-glass" id="glass"></i>
+            </div>
+            <a href="/Jio/login/login.html">
+                <div class="user">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+            </a>
+        </div>
+    </header>
+    <!-- header  -->
+
+    <!-- inputsearch -->
+    <section class="inputsearch">
+        <div class="search">
+            <div class="input">
+                <i class="fa-solid fa-chevron-left" id="chevronleft"></i>
+                <input type="email" data-bs-toggle="modal" data-bs-target="#exampleModal-1"
+                    class="form-control text-white" id="Input1" placeholder="Search">
+            </div>
+        </div>
+        <div class="backg">
+            <div class="searchcontent">
+                <a href="#">Quick links</a>
+                <a href="#">Recharge</a>
+                <a href="#">True 5G</a>
+                <a href="#">Plans</a>
+                <a href="#">My account</a>
+                <a href="#">get Jio Fiber</a>
+                <a href="#">Get Jio sim</a>
+                <a href="#">Jio Fiber Plans</a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <div class="sugges">
+                    <h6>Suggested searches</h6>
+                    <h3 class="d-flex justify-content-between">
+                        <span class="text-dark">Myjio</span>
+                        <span class="text-secondary"><i class="bi bi-arrow-up-left"></i></span>
+                    </h3>
+                    <h3 class="d-flex justify-content-between">
+                        <span class="text-dark">Recharge</span>
+                        <span class="text-secondary"><i class="bi bi-arrow-up-left"></i></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inputsearch -->
+
+    <!-- side navbar -->
+    <aside class="aside">
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <a href="/Jio/mobile/mobile.html">
+                    <span id="title">Mobile</span>
+                </a>
+                <a href="#">
+                    <span id="plus">+</span>
+                </a>
+            </h3>
+            <div class="tooglecont">
+                <span>Discover</span>
+                <span>Pripaid</span>
+                <span>Postpaid</span>
+                <span>Internation Service</span>
+                <span>Get jio Sim</span>
+                <span>Recharge</span>
+                <span>Pay Bill</span>
+            </div>
+        </div>
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <span id="title">True 5G</span>
+                <span id="new">New</span>
+            </h3>
+            <div class="tooglecont">
+                <span>Discover</span>
+                <span>Pripaid</span>
+                <span>Postpaid</span>
+                <span>Internation Service</span>
+                <span>Get jio Sim</span>
+                <span>Recharge</span>
+                <span>Pay Bill</span>
+            </div>
+        </div>
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <span id="title">Jio Fiber</span>
+                <span id="plus">+</span>
+            </h3>
+            <div class="tooglecont">
+                <span>Discover</span>
+                <span>Pripaid</span>
+                <span>Postpaid</span>
+                <span>Internation Service</span>
+                <span>Get jio Sim</span>
+                <span>Recharge</span>
+                <span>Pay Bill</span>
+            </div>
+        </div>
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <span id="title">Business</span>
+            </h3>
+        </div>
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <span id="title">Shop</span>
+                <span id="plus">+</span>
+            </h3>
+            <div class="tooglecont">
+                <span>Discover</span>
+                <span>Pripaid</span>
+                <span>Postpaid</span>
+                <span>Internation Service</span>
+                <span>Get jio Sim</span>
+                <span>Recharge</span>
+                <span>Pay Bill</span>
+            </div>
+        </div>
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <span id="title">Apps</span>
+            </h3>
+        </div>
+        <div class="contnet-1">
+            <h3 class="d-flex justify-content-between h3">
+                <span id="title">Support</span>
+                <span id="plus">+</span>
+            </h3>
+            <div class="tooglecont">
+                <span>Discover</span>
+                <span>Pripaid</span>
+                <span>Postpaid</span>
+                <span>Internation Service</span>
+                <span>Get jio Sim</span>
+                <span>Recharge</span>
+                <span>Pay Bill</span>
+            </div>
+        </div>
+    </aside>
+    <!-- side navbar -->
+
+
+
+
+
+
+
+
+    <!-- main section start  -->
+    <main>
+        <section class="login">
+            <div class="row d-flex justify-content-between" id="row-1">
+                <div class="col-lg-5" id="left">
+                    <h1>Manage your Digital Life with the MyJio app</h1>
+                    <h3 class="d-flex">
+                        <span id="check"><i class="fa-sharp fa-regular fa-circle-check"></i></span>
+                        <span id="cont">Check balance, recharge and pay bills</span>
+                    </h3>
+                    <h3 class="d-flex">
+                        <span id="check"><i class="fa-sharp fa-regular fa-circle-check"></i></span>
+                        <span id="cont">Get personalised recommendations</span>
+                    </h3>
+                    <h3 class="d-flex">
+                        <span id="check"><i class="fa-sharp fa-regular fa-circle-check"></i></span>
+                        <span id="cont">Buy and transfer vouchers to others</span>
+                    </h3>
+                    <h3 class="d-flex">
+                        <span id="check"><i class="fa-sharp fa-regular fa-circle-check"></i></span>
+                        <span id="cont">UPI, movies, music, games and more</span>
+                    </h3>
+                    <div class="content d-flex">
+                        <div class="image">
+                            <img src="/Jio/images/largeimg/lgimg-15.png" class="img-fluid" alt="image">
+                        </div>
+                        <div class="cont">
+                            <h6>Get MyJio Now</h6>
+                            <p>Scan this QR code with your mobile camera and download the app.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" id="right">
+                    <h1>Welcome</h1>
+                    <p>Log in and unlock a world full of digital experiences.</p>
+
+                    <div class="buttons d-flex">
+                        <button class="btn active jiobtn" id="tab-1">Mobile</button>
+                        <button class="btn jiobtn" id="tab-2">JioFiber</button>
+                    </div>
+                    <div class="input-1 show tabcontent" id="tab-1-content">
+                        <div class="input mb-3">
+                            <input type="tel" class="form-control" id="Input1"  placeholder="mobile number">
+                        </div>
+                    </div>
+                    <div class="input-2 tabcontent" id="tab-2-content">
+                        <div class="input mb-3">
+                            <input type="tel" class="form-control" id="Input1" placeholder="JioFiber number">
+                            <i class="fa-solid text-danger fa-circle-exclamation"></i>
+                        </div>
+                    </div>
+                    <div class="button text-center">
+                        <button class="btn">Generate OTP</button>
+                    </div>
+
+                    <p id="jiofi">More login options (JioFi, Lost SIM & others)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section end  -->
+
+
+
+
+
+    <footer class="footer">
+        <!-- row 1  -->
+        <div class="row" id="row-1">
+            <div class="col-2">
+                <h6>Our offerings</h6>
+                <span>Mobile</span>
+                <span>Fiber</span>
+                <span>Bussines</span>
+                <span>Apps</span>
+                <span>Shop</span>
+            </div>
+            <div class="col-2">
+                <h6>Support</h6>
+                <span>Explore Support</span>
+                <span>Locate us</span>
+                <span>FAQ</span>
+                <span>Track order</span>
+                <span>Contact us</span>
+            </div>
+            <div class="col-2">
+                <h6>Our company</h6>
+                <span>Reliance Industries</span>
+                <span>Reliance Foundation</span>
+                <span>JioLife</span>
+                <span>Careers</span>
+                <span>Investor relations</span>
+            </div>
+            <div class="col-2">
+                <h6>Useful links</h6>
+                <span>Get Jio SIM</span>
+                <span>Get JioFiber</span>
+                <span>Recharge</span>
+                <span>Pay Bills</span>
+                <span>Login</span>
+            </div>
+            <div class="col-4" id="iconsec">
+                <h6>Connect with us</h6>
+                <div class="i">
+                    <a href="#" class="fab fa-facebook-f" id="i-1"></a>
+                    <a href="#" class="fab fa-twitter" id="i-2"></a>
+                    <a href="#" class="fab fa-instagram" id="i-3"></a>
+                    <a href="#" class="fab fa-linkedin" id="i-4"></a>
+                    <a href="#" class="fab fa-pinterest" id="i-5"></a>
+                </div>
+                <h3>Download MyJio</h3>
+
+                <div class="image">
+                    <img src="/Jio/images/largeimg/G-Play.svg" alt="image" class="img-fluid">
+                    <img src="/Jio/images/largeimg/AppStore.svg" alt="image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <!-- row 1  -->
+
+
+        <!-- accordian -->
+        <div class="accordion topparent" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h6>Our offerings</h6>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body body">
+                        <span>Mobile</span>
+                        <span>Fiber</span>
+                        <span>Bussines</span>
+                        <span>Apps</span>
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h6>Support</h6>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body body">
+                        <span>Explore Support</span>
+                        <span>Locate us</span>
+                        <span>FAQ</span>
+                        <span>Track order</span>
+                        <span>Contact us</span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h6>Our company</h6>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body body">
+                        <span>Reliance Industries</span>
+                        <span>Reliance Foundation</span>
+                        <span>JioLife</span>
+                        <span>Careers</span>
+                        <span>Investor relations</span>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h6>Useful links</h6>
+                    </button>
+
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body body">
+                        <span>Get Jio SIM</span>
+                        <span>Get JioFiber</span>
+                        <span>Recharge</span>
+                        <span>Pay Bills</span>
+                        <span>Login</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4" id="iconsec">
+                <h6>Connect with us</h6>
+                <div class="i">
+                    <a href="#" class="fab fa-facebook-f" id="i-1"></a>
+                    <a href="#" class="fab fa-twitter" id="i-2"></a>
+                    <a href="#" class="fab fa-instagram" id="i-3"></a>
+                    <a href="#" class="fab fa-linkedin" id="i-4"></a>
+                    <a href="#" class="fab fa-pinterest" id="i-5"></a>
+                </div>
+                <h3>Download MyJio</h3>
+
+                <div class="image">
+                    <img src="/Jio/images/largeimg/G-Play.svg" alt="image" class="img-fluid">
+                    <img src="/Jio/images/largeimg/AppStore.svg" alt="image" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- accordian -->
+
+
+
+        <!-- row 2  -->
+        <div class="row" id="row-2">
+            <div class="col-lg-5" id="left">
+                <img src="/Jio/images/smallimg/jio-logo.png" alt="image" class="img-fluid">
+                <p> Copyright © 2023 Reliance Jio Infocomm Ltd. All rights reserved.</p>
+            </div>
+            <div class="col-lg-5" id="right">
+                <a href="#">Press release</a>
+                <a href="#">Regulatory</a>
+                <a href="#">Policies</a>
+                <a href="#">Terms & conditions</a>
+            </div>
+        </div>
+        <!-- row 2  -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper link  -->
+
+    <!-- custom js link  -->
+    <script src="/Jio/login/login.js"></script>
+    <!-- custom js link  -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
